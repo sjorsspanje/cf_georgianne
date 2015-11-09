@@ -1,5 +1,9 @@
 == README
 
+This is Georgianne's readme file. I am not sure how everything works yet but I am working on it. Not giving up:-) Have a great day.
+
+More info will follow when possible
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
