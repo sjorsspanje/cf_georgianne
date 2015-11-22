@@ -1,3 +1,68 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1{
+	color: purple;
+	font-family: Helvetica;
+	text-alignment: left;
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    color: #5a5a5a;
+}
+
+
+
+/* NAVBAR
+-------------------------------------------------- */
+.navbar-nav {
+    float: right;
+    margin: 0px;
+}
+.navbar-inverse {
+    background-color: purple;
+    border: 1px solid #aaa;
+}
+.navbar-brand {
+  height:60px;
+}
+.navbar-brand img {
+  position: relative;
+  bottom: 6px;
+}
+.navbar-nav > li > a {
+    padding-top: 23px;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+  }
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #A899BF;
+    background-color: pink;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #A899BF;
+    background-color: transparent;
+}
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+/* FOOTER */
+footer {
+  background: pink;
+  min-height: 100px;
+}
